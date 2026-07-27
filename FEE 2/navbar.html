@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            background-color:beige;
+            border:2px solid beige;
+            display:flex;          
+            height:50px;
+            width:100%;
+            align-items:center;
+            margin-top:20px;         
+            
+        }
+        .child{
+            display:flex;
+            width:auto;
+            font-size:22px;
+            margin:auto;
+            gap:40px;
+           margin-left:33%;
+        }
+        .heading{
+            font-size:25px;
+            font-weight:bold;
+        }
+
+        .login{
+            background-color:pink;
+            height:40rem;
+            width:35rem;
+            margin:auto;
+            border-radius:10%;
+            margin-top:5em;
+            padding:10px;
+        }
+        
+        .User{
+            
+            background-color:white;
+            border:2px solid black;
+            height:30px;
+            width:22rem; 
+            margin:auto;
+           margin-top:30px;
+           border-radius:10px;
+           margin-left:100px;
+           padding:10px;
+           
+        }
+        .Pass{
+            background-color:white;
+            border:2px solid black;
+            height:30px;
+            width:22rem;
+            font-size:18px;
+            margin:auto;
+           margin-top:1.5em;
+           border-radius:10px;
+           margin-left:100px;
+           padding:10px;
+           /* padding-right:45px; */
+           
+        }
+        .text{
+            text-align:center;
+            font-size:50px;
+            color:black;
+           margin-bottom:0px;
+           
+        }
+        .stext{
+            text-align:center;
+            font-size:20px;
+            color:black;
+           /* margin-top:0px; */
+        }
+        .btn{
+            
+            background-color:white;
+            border:2px solid black;
+            height:60px;
+            width:21em;
+            font-size:18px;
+            margin:auto;
+           margin-top:0.7em;
+           border-radius:10px;
+           margin-left:100px;
+           padding:10px;
+           background-color:rgba(188, 130, 67, 0.858);
+        }
+        .parent{
+            position:relative;
+            display:inline-block;
+            
+        }
+        .parent span{
+            position:absolute;
+            right:10px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="box">
+        <div class="heading">CodeVerse</div>
+        <div class="child">
+            <a href="#"><u>Home</u></a>
+        
+            <a href="#"><u>About</u></a>
+        
+            <a href="#"><u>History</u></a>
+        
+            <a href="#"><u>Contact us</u></a>
+        </div>
+    </div>
+    <div class="login">
+       <p class="text">Welcome Back</p>
+       <p class="stext">Login to Continue</p>
+         <input class="User" type="text" placeholder="Name"><br>
+
+         <div class="parent">
+        <input class="Pass" type="password" placeholder="Password">
+        <span class="img">?</span>
+        <br></div>
+
+        <button class="btn">Login</button>
+        <p class="forgot" style ="text-align:center; font-size:18px;">Forgot Password?</p>
+        <p style="text-align:center">Don't have an account? <a href="#" >Sign Up</a></p>
+    </div>
+</body>
+</html>

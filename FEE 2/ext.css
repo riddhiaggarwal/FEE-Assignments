@@ -1,0 +1,47 @@
+.paraclass{
+    font-size:40px;
+    background-color:grey;
+    color:rgb(60, 9, 2);
+}
+
+div p{
+    font-size:50px;
+    color:purple;
+    background-color:pink;
+}
+
+div{
+    height:200px;
+    width:400px;
+    border-radius:20px;
+    border:5px solid brown;
+    padding:25px;
+    /* total width=400+5+5+25+25 */
+    margin:100px;
+    margin:10px 20px 10px 20px; 
+    background-color:pink;  
+    /* top right bottom left */
+}
+
+
+.boxchild{
+    width:90px;
+    height:90px;
+    border:2px solid green;
+    background-color:beige;
+    margin:auto;
+    margin-top:25px;
+    border-radius:0px;
+
+    font-size:1.5em;  
+        /*relative to parent*/
+
+    /* font-size:3rem;  */
+        /*relative to root html*/
+}
+
+
+*{
+    box-sizing:border-box; 
+     /* used to fix the size even after adding borders its total width will remain same */
+}
